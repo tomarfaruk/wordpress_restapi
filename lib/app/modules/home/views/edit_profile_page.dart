@@ -74,7 +74,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
 
                   var body = <String, dynamic>{
                     'first_name': fNameController.text,
-                    'last_name': fNameController.text,
+                    'last_name': lNameController.text,
                     'nickname': nicknameController.text,
                     'description': descController.text,
                   };
